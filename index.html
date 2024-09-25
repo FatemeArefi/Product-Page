@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <p>Product Page</p>
+    </header>
+    <main>
+      <div id="search">
+        <input placeholder="Search Name" id="search-input" type="text" />
+        <div>
+          <button class="filter selected" data-filter="all">All</button>
+          <button class="filter" data-filter="tech">Tech</button>
+          <button class="filter" data-filter="clothig">Clothing</button>
+          <button class="filter" data-filter="health">Health</button>
+        </div>
+        <div id="search-price">
+          <input type="number" placeholder="Search Price" />
+          <button>Search</button>
+        </div>
+      </div>
+      <div id="products">
+        <div class="product-item" data-category="tech">
+          <img src="./images/iphone.png" alt="iphon photo" />
+          <p>Apple iphone 14pro</p>
+          <span>$ 1499</span>
+        </div>
+        <div class="product-item" data-category="clothig">
+          <img src="./images/shoes.png" alt="shoes photo" />
+          <p>Running Shoes</p>
+          <span>$ 199</span>
+        </div>
+        <div class="product-item" data-category="tech">
+          <img src="./images/airpods.png" alt="airpods photo" />
+          <p>Airpods</p>
+          <span>$ 1220</span>
+        </div>
+        <div class="product-item" data-category="clothig">
+          <img src="./images/bag.png" alt="bag photo" />
+          <p>Bags</p>
+          <span>$ 109</span>
+        </div>
+        <div class="product-item" data-category="health">
+          <img src="./images/cream.png" alt="cream photo" />
+          <p>Cream</p>
+          <span>$ 99</span>
+        </div>
+
+        <div class="product-item" data-category="clothig">
+          <img src="./images/jacket.png" alt="jaket photo" />
+          <p>Jacket</p>
+          <span>$ 199</span>
+        </div>
+        <div class="product-item" data-category="health">
+          <img src="./images/shampoo.png" alt="shampo photo" />
+          <p>Shampo</p>
+          <span>$ 299</span>
+        </div>
+
+        <div class="product-item" data-category="health">
+          <img src="./images/vitamin.png" alt="vitamin photo" />
+          <p>Vitamin</p>
+          <span>$ 1250</span>
+        </div>
+        <div class="product-item" data-category="clothig">
+          <img src="./images/watch.png" alt="watch photo" />
+          <p>Watch</p>
+          <span>$ 599</span>
+        </div>
+      </div>
+    </main>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
